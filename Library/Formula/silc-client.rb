@@ -5,7 +5,6 @@ class SilcClient < Formula
   url 'https://downloads.sourceforge.net/project/silc/silc/client/sources/silc-client-1.1.10.tar.gz'
   sha1 '78c5ed2977c2dd4f3d9852e1ab09ba06a433feba'
 
-
   depends_on 'pkg-config' => :build
   depends_on 'glib'
 
